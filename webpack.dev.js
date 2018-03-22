@@ -13,6 +13,7 @@ module.exports = merge(common, {
         inline: true,
         compress: true,
         open: true, //是否自动打开浏览器
+        historyApiFallback: true,
         // https: {
         //     key: "xx",
         //     cert: "xx"

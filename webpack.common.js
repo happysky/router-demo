@@ -8,6 +8,7 @@ module.exports = {
     },
     output: {
       //filename: '[name].js'
+      publicPath: "/",
       filename: '[name].[hash].js',
     },
     resolve: {
